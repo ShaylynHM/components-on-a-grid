@@ -17,11 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-nav {
-grid-area: banner;
-grid-column: 2;
-}
-
 body {
   margin: 0;
   padding: 1rem;
@@ -40,4 +35,18 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+nav {
+grid-area: banner;
+grid-column: 2;
+}
+
+ul {
+display: flex;
+}
+
+h2 {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
 }
