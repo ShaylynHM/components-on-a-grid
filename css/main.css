@@ -17,6 +17,11 @@ html {
   box-sizing: inherit;
 }
 
+nav {
+grid-area: banner;
+grid-column: 2;
+}
+
 body {
   margin: 0;
   padding: 1rem;
