@@ -57,8 +57,22 @@ grid-row: 1;
 
 nav ul {
   display: flex;
-
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+nav li {
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  font-family: "Patua One", sans-serif;
+  font-size: 2rem;
+}
+
 
 ul {
 display: flex;
