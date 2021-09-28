@@ -1,14 +1,15 @@
 html {
   box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {html {
   background-color: #f2f1ed;
   box-sizing: inherit;
   font-family: Georgia, serif;
   line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {html
+
 }
 
 body {
